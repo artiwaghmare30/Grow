@@ -11,12 +11,7 @@ public class Base {
 	WebDriver driver = new ChromeDriver();
 	
 	return driver;
-}
-	public WebDriver openfirefoxbrowser()
-	{
-	System.setProperty("webdriver.gecko.driver","D:\\ARTI\\A Velocity\\geckodriver.exe");
-	WebDriver driver = new FirefoxDriver();
+
 	
-	return driver;
 }
 }
